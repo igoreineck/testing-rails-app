@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!Doctype Html>
 <html>
   <head>
     <title>TestingApp</title>
@@ -9,6 +9,8 @@
   </head>
 
   <body>
-    <%= yield %>
+    <main class="<%= controller.controller_name %>">
+      <%= yield %>
+    </main>
   </body>
 </html>
